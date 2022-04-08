@@ -10,7 +10,7 @@
 
 > Wow
 
-![Easy](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2F80948524%2Fstock-photo-person-with-easy-button.html&psig=AOvVaw3qao_8rJuBYfUR8sxvNqgy&ust=1649526518072000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCJiP1uKQhfcCFQAAAAAdAAAAABAJ)
+![anime picture](https://github.com/alexlee39/cse15l-lab-reports/blob/main/yus.webp)
 
 * UnorderedItem
 * UnorderedItem
