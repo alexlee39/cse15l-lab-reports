@@ -10,7 +10,7 @@
 
 > Wow
 
-![anime picture](https://github.com/alexlee39/cse15l-lab-reports/blob/main/yus.webp)
+![anime picture](yus.webp)
 
 * UnorderedItem
 * UnorderedItem
