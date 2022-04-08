@@ -6,11 +6,11 @@
 
 **Go to my website!**
 
-[My github page](https://github.com/alexlee39/cse15l-lab-reports)
+[My github repo](https://github.com/alexlee39/cse15l-lab-reports)
 
 > Wow
 
-![Picture](https://www.google.com/search?q=coding+languages&rlz=1C1VDKB_enUS983US983&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi9t72V_oT3AhVwKUQIHUn3DV8Q_AUoAXoECAIQAw&biw=1920&bih=969&dpr=1#imgrc=pWnaqLNNjIhBBM)
+![Picture](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgowithcode.com%2Ftop-programming-languages&psig=AOvVaw01kLtJTmOTXVntbDo0NHXH&ust=1649525150660000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCNiogcyLhfcCFQAAAAAdAAAAABAD)
 
 * UnorderedItem1
 * UnorderedItem2
