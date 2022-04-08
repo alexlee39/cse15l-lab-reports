@@ -28,3 +28,5 @@ This is a code block
 print 'hey'
 print 'bye'
 ```
+
+**Editing in VSCode is quite nice**
