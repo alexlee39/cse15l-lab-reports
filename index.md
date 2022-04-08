@@ -12,9 +12,9 @@
 
 ![Easy](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2F80948524%2Fstock-photo-person-with-easy-button.html&psig=AOvVaw3qao_8rJuBYfUR8sxvNqgy&ust=1649526518072000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCJiP1uKQhfcCFQAAAAAdAAAAABAJ)
 
-* UnorderedItem1
-* UnorderedItem2
-* UnorderedItem3
+* UnorderedItem
+* UnorderedItem
+* UnorderedItem
 
 1. One
 2. Two
