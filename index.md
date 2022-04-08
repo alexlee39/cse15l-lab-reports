@@ -23,8 +23,8 @@
 Inserted line here:
 ---
 
-'''
+```
 This is a code block
 print 'hey'
 print 'bye'
-'''
+```
