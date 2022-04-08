@@ -1,8 +1,8 @@
-#Markdown techniques#
+# Markdown techniques #
 
-'this is pretty cool'
+`this is pretty cool`
 
-##*Pretty simple language*##
+## *Pretty simple language* ##
 
 **Go to my website!**
 
