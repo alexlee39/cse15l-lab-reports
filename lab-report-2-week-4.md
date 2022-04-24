@@ -11,7 +11,7 @@
 
 This is one of the bugs, our group saw in our lab #3. When we tested the file on one of our files,test2.md, which should print the two links in a list. However, when we ran the file, we got a symptom which tells us that java ran out of heap space, meaning that there was an infinete loop. We realised that the bug in this testfile was it didn't properly check when the file ended. Hence, we added a conditional that would break the while loop if the code couldn't find an open bracket.
 
-
+### Bug #2 ###
 ![Screenshot](/screenshots/1sterror.png)
 
 ![Screenshot](/screenshots/1stsol.png)
@@ -20,6 +20,7 @@ This is one of the bugs, our group saw in our lab #3. When we tested the file on
 
 In this error that we found is that the code doesn't correctly identify links. In this example, we had a space between the brackets and the parenthesis for the link which should not correctly output a link in markdown. However, in our file we see the symptom that it does output the link after we run it. To fix this bug, we added another conditional that made sure the open parenthesis was next to the close bracket.
 
+### Bug #3 ###
 ![Screenshot](/screenshots/3rderror.png)
 
 ![Screenshot](/screenshots/3rdsol.png)
