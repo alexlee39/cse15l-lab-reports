@@ -14,7 +14,7 @@
 
 > Wow
 
-![anime picture](yus.webp)
+![anime picture](/screenshots/yus.webp)
 
 * UnorderedItem
 * UnorderedItem
