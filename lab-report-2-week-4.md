@@ -8,6 +8,10 @@ This is the first error, my group had when working on lab#3.
 
 ![Screenshot](/screenshots/2nderror.png)
 
+This is the symptom our group saw after running the md file with another line after the last link.
+![SS](/screenshots/errorBug1.png)
+
+
 The symptom we saw after running the Markdown-parse file with a new markdown file was that we got an out of Memory Error. This commit change shows that the file had a space after the 2nd link which gives us an infinite loop in our Markdown-parse file and code. Thus the bug in this case was that the while loop didn't end which there was another line at the end of new markdown file. To solve this bug, we added an conditional that checked if there was any openBracket in the line. If there was none, it would end the loop.
 
 This is our solution to the first bug.
@@ -20,7 +24,16 @@ This is our second error, we found as a group. [Link to 2nd Error Commit](https:
 In this screen shot, the test file outputs a link after running it through our Markdown-parse file despite it being in the incorrect markdown format for a link.
 ![Screenshot](/screenshots/1sterror.png)
 
-In this error that we found is that the code doesn't correctly identify links. In this example, we had a space between the brackets and the parenthesis for the link which should not correctly output a link in markdown. However, in after running our java file we see that it does output the link after we run it. Hence, our symptom in this case is that it incorrectly identify links even though it might not be in a correct format. To fix this bug, we added another conditional that made sure the open parenthesis was next to the close bracket.
+As mentioned earlier, the symptom we saw is that our code collected links that weren't even in the proper markdown format for a link. We saw...
+
+![SS](/screenshots/errorBug2p1.png)
+
+Which should only print an array with one link because there is only one link with a proper link format for markdown. However, we ended up seeing...
+
+![SS](/screenshots/errorBug2p2.png)
+
+
+In this error that we found is that the code doesn't correctly identify links. In this example, we had a space or some spaces between the brackets and the parenthesis for the link which should not correctly output a link in markdown. However, in after running our java file we see that it does output the link after we run it. Hence, our symptom in this case is that it incorrectly identify links even though it might not be in a correct format. To fix this bug, we added another conditional that made sure the open parenthesis was next to the close bracket.
 
 This is what we added to fix the 2nd error.
 ![Screenshot](/screenshots/1stsol.png)
