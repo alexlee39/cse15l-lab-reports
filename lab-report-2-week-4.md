@@ -24,11 +24,11 @@ This is our second error, we found as a group. [Link to 2nd Error Commit](https:
 In this screen shot, the test file outputs a link after running it through our Markdown-parse file despite it being in the incorrect markdown format for a link.
 ![Screenshot](/screenshots/1sterror.png)
 
-As mentioned earlier, the symptom we saw is that our code collected links that weren't even in the proper markdown format for a link. We saw...
+As mentioned earlier, the symptom we saw is that our code collected links that weren't even in the proper markdown format for a link. We added this test file that had an incorrect link but also a correct link.
 
 ![SS](/screenshots/errorBug2p1.png)
 
-Which should only print an array with one link because there is only one link with a proper link format for markdown. However, we ended up seeing...
+This should only print an array with one link because there is only one link with the correct format in markdown. However, we ended up seeing...
 
 ![SS](/screenshots/errorBug2p2.png)
 
