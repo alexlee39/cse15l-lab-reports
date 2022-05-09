@@ -1,6 +1,6 @@
 # Lab Report 3 :Github and Remote Server Conveniency
 
-For this lab report, we showcase multiple tasks that allow us to have more access to github commands, as well as working on some more git
+For this lab report, we showcase multiple tasks that allow us to have more access to github commands, as well as working on some more git commands.
 ## Number 1: SSH Configurations
 For this part of the lab, we did some configurations to make our lives easier everytime we log into the ieng6 server. To do this, we first had to create a config folder located on our .ssh directory on our local computer.
 ![SS](/labrep3ss/labrep3sshdirectory.png)
@@ -50,3 +50,10 @@ As we can see after runnning the scp-r command, when I log into the ieng6 server
 To copy the files from markdown-Parse, and ssh into your account, you need a very long command that I ran in the screenshot below, to ssh into my account and run the corresponding compiling and runnning command for MarkdownParseTest.
 
 ![SS](/labrep3ss/labrep3p3.3.png)
+
+For the convenience of your eyes, the command is: 
+
+(scp -r *.java *.md lib/ ieng6:markdownParse; ssh ieng6 "cd markdownParse; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp 
+.:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest")
+
+Basically, it copies all the files into the ieng6 server in the markdownParse Directory and runs the javac compiling command and java command to run the jUnit Tests.
