@@ -13,6 +13,9 @@ After creating the config file with the host ieng6, with the host name(server na
 
 ![SS](/labrep3ss/labrep3ssh2.png)
 
+We can also use scp with the ieng6 alias so we can securely copy files from our local computer to the ieng6 server using the ieng6 host name.
+
+![SS](/labrep3ss/labrep3ssh4.png)
 
 ## Number 2: Github Access with Ieng6 Server
 
