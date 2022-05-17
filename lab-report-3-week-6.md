@@ -22,6 +22,7 @@ We can also use scp with the ieng6 alias so we can securely copy files from our 
 Using the git commands we learned in class, we want to figure out ways to commit changes on our remote server on a repo we might have on our github account. However, when we try to push a change we commited on our remote server, we can't without setting up a SSH key on the actual github website.
 
 Hence, I had to create a new public and private key pair on the ieng6 server. From there I copied the public key from the id_ed25519.pub file and pasted in the SSH keys which is in your settings in your github account which is shown below.
+
 ![SS](/labrep3ss/labrep3sshkeys.png)
 
 We can see the the private and public key on the ieng6 server in the hidden directory, *.ssh*. The public keys have a .pub extension, while the private keys don't, as seen below.
