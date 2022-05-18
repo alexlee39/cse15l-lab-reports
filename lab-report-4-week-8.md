@@ -30,9 +30,8 @@ When I run on my peer's group's repo through the same jUnit Testcase we get:
 
 We see that in both repos, our MarkdownParse.java files aren't suited/implemented correctly to correctly identify which statements are in the proper md format. 
 
-To fix this implementation of MarkdownParse.java, I believe that there would be a small code change. (Finish this!)
-
-Get index of "`", 
+#### **Question: Is there a short fix to this issue?** ####
+To fix this implementation of MarkdownParse.java, I believe it would be a small code change of around 10 lines of code. We can do this by adding a conditional(if statement) to check if there are backticks. If there are, we can set the currIndex to be the character after the second backtick and uses the key word continue, to skip this iteration which would skip any false implementations with brackets between backticks.
 
 ### Snippet 2
 
@@ -58,7 +57,12 @@ For our peer's group implementation of MarkdownParse.java, we got this following
 
 Which means both my group and my peer's group implementation doesn't correctly identify the nested parenthesis in this Snippet md file.
 
-I don't think there is a short, easy way to implement this change because the nested parenthesis are very tricky to follow....(FINISH THIS!)
+#### **Question: Is there a short fix to this issue?** ####
+
+I don't think there is a short, easy way to implement this change because the nested parenthesis are very tricky to follow. For this implementation, we would have to check for nested parenthesis. Basically, we would have to change the file to check for extra open and closed parenthesis. If the number of open and closed parenthesis are the same, it is a valid link, and you should include the link with all the parenthesis exluding the first open parenthesis and last closed parenthesis. 
+
+For the third line of the Snippet2.md file, we would also need to implement the same idea with the closed and open brackets.
+
 ### Snippet 3
 
 For the last snippet md file, we preview it:
@@ -79,4 +83,7 @@ For my peer's group implementation of MarkdownParse.java, they also got another 
 
 ![SS](/labrep4ss/PeerSnip3Output.png)
 
-I believe this implementation would be pretty easy and short to fix because you only need to account for (FINISH THIS!)
+#### **Question: Is there a short fix to this issue?** ####
+I believe this there wouldn't be a short implementation to fix this issue. For the first link, we could fix in a short manner. However, the other two links would be much more complex as our group's MDParse.java file reads the "(github" til the last parenthesis which is obviously incorrect as the code it should see that there is a following bracket in the next few lines.
+
+To Sum this section up, it would be take a longer fix, as this Snippet requires our MDParse file to account for many situations from long lines between open and closed parenthesis, but also account when there is no closed parenthesis in the following lines.
