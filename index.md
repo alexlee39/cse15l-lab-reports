@@ -16,6 +16,8 @@
 
 [Lab report 4](https://alexlee39.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
+[Lab report 5](https://alexlee39.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
+
 > Wow
 
 ![anime picture](/screenshots/yus.webp)
